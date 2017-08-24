@@ -532,10 +532,9 @@ footer {
 .lentren {
     margin-top: -127px;
     color: white;
-    width: 1340px;
 }
 
-.lentren col-md-3 {
+r .lentren col-md-3 {
     width: 1253px;
 }
 
@@ -1505,10 +1504,6 @@ a.navbar-brand {
     text-decoration: line-through;
 }
 
-.container {
-    width: 1340px;
-}
-
 .btnFooter {
     color: white;
     background-color: #6684f2;
@@ -1745,6 +1740,32 @@ a.navbar-brand {
     }
 }
 @media (max-width:1024px) and (min-width:767px) {
+    .duoi img {
+        width: 100%!important;
+    }
+    
+    .khongAnh img {
+        width: 100%!important;
+    }
+    
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    
+    .khongAnh {
+        position: static;
+    }
+    
+    .borderArow {
+        width: auto;
+        float: none;
+    }
+    
+    .hiddenResponsive {
+        display: none;
+    }
+    /*part in 1024px*/
+    
     .navbar-header {
         float: none;
     }
