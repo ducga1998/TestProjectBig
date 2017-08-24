@@ -1,4 +1,22 @@
   $(document).ready(function () {
+      $(".Topscroll a").on("click", function (event) {
+
+          event.preventDefault(); /*XÓA MỌI LIÊN KẾT từ <a>*/
+          $("body").animate({
+              scrollTop: 0,
+              offset: 0
+          }, 2000, "easeOutCubic");
+      });
+      $(".Topscroll a").click(function (e) {
+          e.preventDefault();
+          $("body").animate({
+              scrollTop: 0,
+              offset: 0
+          }, 2000, );
+
+
+      });
+
 
       /* });
        $(window).scroll(function () {
@@ -42,6 +60,7 @@
       $(window).resize(function () {
           FullScreen();
       })
+
 
 
 
