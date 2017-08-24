@@ -1,13 +1,13 @@
- .tren img {
-     height: 400px;
- }
+ .tren img {}
  
  .tren {
-     padding: 0px;
+     padding-left: 0px!important;
+     padding-right: 0px!important;
  }
  
  .duoi {
-     padding: 0px;
+     padding-left: 0px!important;
+     padding-right: 0px!important;
  }
  
  .duoi .MauTrang {
@@ -892,7 +892,6 @@
  
  .PhanShowCacHinhAnhPast1 img {
      width: 332px;
-     height: 402px;
  }
  
  #table1 {
@@ -907,8 +906,6 @@
      width: 100%;
      display: table-cell;
  }
- 
- .PhanShowCacHinhAnhPast1 img:hover {}
  
  .hoverNao:hover .testt img {
      transition: all 0.3s;
@@ -1791,6 +1788,9 @@
  }
  
  @media (max-width:768px) and (min-width:500px) {
+     footer .contaier {
+         padding-left: 118px;
+     }
      .hiddenResponsive {
          display: none;
      }
@@ -1906,6 +1906,37 @@
  /*end responsive 768px to 500px*/
  
  @media (max-width:499px) and (min-width:319px) {
+     #list li {
+         text-align: center;
+         font-size: 150%;
+     }
+     #list input[type="text"] {
+         width: 138px;
+     }
+     .btnFooter {
+         font-size: 10px;
+         width: 90px;
+     }
+     .tieude {
+         position: relative;
+         top: 29px;
+     }
+     .duoi img {
+         width: 100%!important;
+     }
+     .khongAnh img {
+         width: 100%!important;
+     }
+     .khongAnh:nth-child(2) {
+         left: auto;
+     }
+     .khongAnh {
+         position: static;
+     }
+     .borderArow {
+         width: auto;
+         float: none;
+     }
      .hiddenResponsive {
          display: none;
      }
@@ -1922,7 +1953,7 @@
          width: 500px;
      }
      .widthSet {
-         width: 200px;
+         width: 300px;
      }
      .chuxam {
          width: 305px;
@@ -1943,7 +1974,8 @@
          width: 318px;
      }
      .duoi .MauTrang {
-         width: 50%;
+         width: 100%;
+         float: none;
      }
      .lentren {
          margin-top: -194px;
