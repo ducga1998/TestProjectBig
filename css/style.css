@@ -3,6 +3,10 @@
     padding-right: 0px!important;
 }
 
+.tableDisplay {
+    display: table;
+}
+
 .duoi {
     padding-left: 0px!important;
     padding-right: 0px!important;
@@ -153,7 +157,7 @@ span.Blue {
     border-bottom: 14px solid transparent;
     border-left: 21px solid white;
     top: 177px;
-    left: 0px;
+    left: -1px;
     right: -21px;
     margin: auto;
     z-index: 2;
@@ -919,9 +923,7 @@ p.chuxam {
     margin-top: 9px;
 }
 
-.PhanShowCacHinhAnhPast1 img {
-    width: 332px;
-}
+.PhanShowCacHinhAnhPast1 img {}
 
 #table1 {
     display: table;
