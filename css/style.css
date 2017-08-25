@@ -1239,6 +1239,13 @@ section.canChinh {
     background-color: white;
 }
 
+.StyleTour h1 {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 12px
+}
+
 .phanThap .MauTrang h1 {
     font-size: 10px;
     color: #515151
@@ -1740,10 +1747,6 @@ a.navbar-brand {
     }
 }
 @media (max-width:1024px) and (min-width:767px) {
-    .duoi img {
-        width: 100%!important;
-    }
-    
     .khongAnh img {
         width: 100%!important;
     }
@@ -2081,10 +2084,73 @@ a.navbar-brand {
     .chuxam {
         width: 305px;
     }
+    /*responsive update have screen 768*/
+    
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    
+    .khongAnh {
+        position: static;
+    }
+    
+    .borderArow {
+        width: 50%;
+        float: none;
+    }
+    
+    .MauTrang:after {
+        display: none;
+    }
+    
+    .duoi .MauTrang {
+        height: auto;
+    }
+    
+    .duoi .MauTrang {
+        float: none;
+    }
 }
 
 /*end responsive 768px to 500px*/
 @media (max-width:499px) and (min-width:319px) {
+    .longVao {
+        display: block;
+    }
+    
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    
+    .GOC {
+        padding-bottom: 20px;
+    }
+    
+    .GioiThieuAdmin .container {
+        margin-bottom: 20px;
+    }
+    
+    .StyleTour h1 {
+        font-size: 29px!important;
+    }
+    
+    .Deal h1 {
+        font-size: 25px;
+    }
+    
+    ._3dongChu h3 {
+        font-size: 15px;
+    }
+    
+    ._3dongChu h2 {
+        font-size: 11px;
+    }
     /* responsive web screen 499px to 319px*/
     /*css have  input begin*/
     
@@ -2106,6 +2172,7 @@ a.navbar-brand {
     
     .inputSearch2 {
         background-color: transparent!important;
+        border: none!important;
     }
     
     .tatPadding:nth-child(3) {
@@ -2114,27 +2181,34 @@ a.navbar-brand {
     }
     /*code have*/
     
-    #list li {
-        text-align: center;
-        font-size: 150%;
-    }
+    #list li {}
     
     #list input[type="text"] {
-        width: 138px;
+        width: 100%;
+    }
+    
+    section#list button {
+        margin: 20px 0px 0px 0px!important;
+        border-radius: 38px;
+    }
+    
+    .oduoi {
+        text-align: center;
+    }
+    
+    .inputFooter {
+        border-radius: 38px;
     }
     
     .btnFooter {
         font-size: 10px;
         width: 90px;
+        width: 100%;
     }
     
     .tieude {
         position: relative;
         top: 29px;
-    }
-    
-    .duoi img {
-        width: 100%!important;
     }
     
     .khongAnh img {
@@ -2150,7 +2224,7 @@ a.navbar-brand {
     }
     
     .borderArow {
-        width: auto;
+        width: 50%;
         float: none;
     }
     
@@ -2194,7 +2268,7 @@ a.navbar-brand {
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
     
     .duoi .MauTrang {
-        width: 100%;
+        width: 50%;
         float: none;
     }
     
@@ -2231,6 +2305,7 @@ a.navbar-brand {
     .div3 {
         text-align: center;
         float: none;
+        margin-right: 25px;
     }
     
     .div3 .btnstart {
@@ -2275,18 +2350,13 @@ a.navbar-brand {
     }
     
     .Thetable li {
-        margin-left: 10px;
-        font-size: 13px!important;
+        font-size: 12px!important;
         margin-right: 10px;
     }
     /*css cure execise responsive 414px min-width*/
     
     .PartVideoText h1 {
         font-size: 24px;
-    }
-    
-    .threeCrack {
-        left: 29%;
     }
     
     .MauTrang:after {
@@ -2312,12 +2382,8 @@ a.navbar-brand {
         display: none;
     }
     
-    .borderArow img {
-        height: 311px!important;
-    }
-    
     .duoi .MauTrang {
-        height: 311px!important;
+        height: auto;
     }
     
     .khongAnh:nth-child(1) {
@@ -2326,7 +2392,15 @@ a.navbar-brand {
     
     .MauTrang {
         display: inline-block;
-        width: 100%;
+        width: 51%;
+    }
+    
+    img.imgLarge {
+        width: 65px;
+    }
+    
+    .BaoNgoaiThayTheCarourel {
+        height: 580px;
     }
 }
 .PartVideoText h1 {
