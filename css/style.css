@@ -1557,7 +1557,7 @@ a.navbar-brand {
 /*code*/
 
 /* iPads (portrait and landscape) ----------- */
-@media(min-width: 1023px) and (max-width:1400px) {
+@media(min-width: 1025px) and (max-width:1400px) {
     .hiddenResponsive {
         display: none;
     }
@@ -1740,6 +1740,22 @@ a.navbar-brand {
     }
 }
 @media (max-width:1024px) and (min-width:767px) {
+    .khongAnh:hover .btnHover {
+        left: 37%;
+    }
+    
+    .btnHover {
+        left: 37%;
+    }
+    
+    .borderArow .btnHover {
+        left: 37%;
+    }
+    
+    .borderArow:hover .btnHover {
+        left: 37%;
+    }
+    
     .borderArow:before {
         display: none;
     }
