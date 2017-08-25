@@ -245,6 +245,7 @@ section#title a:hover {
 
 .div3 {
     float: left;
+    margin-left: -15px;
 }
 
 .content {
@@ -1353,7 +1354,7 @@ section.canChinh {
     overflow: hidden;
     width: 100%;
     transition: 0.8s;
-    height: 322px;
+    height: 320px;
 }
 
 i.fa.fa-map-marker {
@@ -1593,10 +1594,6 @@ a.navbar-brand {
         font-size: 12px;
     }
     
-    .testt {
-        height: 200px;
-    }
-    
     .h2threePicture h2 {
         font-size: 20px;
     }
@@ -1743,26 +1740,19 @@ a.navbar-brand {
     }
 }
 @media (max-width:1024px) and (min-width:767px) {
-    .khongAnh img {
-        width: 100%!important;
-    }
-    
-    .khongAnh:nth-child(2) {
-        left: auto;
-    }
-    
-    .khongAnh {
-        position: static;
-    }
-    
-    .borderArow {
-        width: auto;
-        float: none;
-    }
-    
-    .hiddenResponsive {
+    .borderArow:before {
         display: none;
     }
+    
+    .testt {
+        height: 200px;
+    }
+    
+    .tatPadding:nth-child(3) {
+        background-color: transparent;
+    }
+    
+    .hiddenResponsive {}
     /*part in 1024px*/
     
     .navbar-header {
@@ -1794,10 +1784,6 @@ a.navbar-brand {
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    
-    .hiddenResponsive {
-        display: none;
     }
     
     .ClassRow1 {
@@ -1839,10 +1825,6 @@ a.navbar-brand {
         padding-bottom: 20px;
         height: auto;
     }
-    
-    .threeCrack {
-        left: 39%;
-    }
     /*trong khoáº£ng tá»« 1200 Ä‘áº¿n 700px*/
     
     ._3conNguoi {
@@ -1850,56 +1832,16 @@ a.navbar-brand {
     }
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
     
-    .duoi .MauTrang {
-        width: 50%;
-    }
-    
     .lentren {
         margin-top: -194px;
-    }
-    
-    .content {
-        float: none;
     }
     
     .KhoiRealvit h3 {
         float: none;
     }
     
-    .content {
-        float: none;
-    }
-    
     .widthSet {
         width: 600px;
-    }
-    
-    .content .row {
-        height: auto;
-        width: 100%;
-        border: none;
-        border-radius: 0px;
-    }
-    
-    .inputSearch3 {
-        text-align: center;
-    }
-    
-    .tatPadding {
-        height: auto;
-    }
-    
-    .inputSearch3 {
-        border-radius: 0px;
-    }
-    
-    .div3 {
-        text-align: center;
-        float: none;
-    }
-    
-    .div3 .btnstart {
-        border-radius: 38px;
     }
     
     ._3CaiAnh {
@@ -1923,16 +1865,151 @@ a.navbar-brand {
         font-size: 50%;
     }
     
-    .divBlock {
+    .hoverNao {
+        height: auto;
+    }
+    /*screen 1024px */
+    
+    .MauTrang {
+        margin: 0 auto;
+        display: block;
+    }
+    
+    footer .contaier {
+        padding-left: 118px;
+    }
+    
+    .hiddenResponsive {
+        display: block;
+    }
+    
+    .ClassRow1 {
+        display: none;
+    }
+    
+    ._3conNguoi {
+        height: auto;
+    }
+    
+    .duoi .MauTrang {
+        width: 50%;
+    }
+    
+    .lentren {
+        margin-top: -194px;
+    }
+    
+    .KhoiRealvit h3 {
+        float: none;
+    }
+    
+    .widthSet {
+        width: 600px;
+    }
+    
+    ._3CaiAnh {
+        height: auto;
+    }
+    
+    .chuxam {
+        width: 200px;
+    }
+    
+    .PhanGanCuoi {
+        height: auto;
+        background-size: cover;
+    }
+    
+    .owl-nav {
         display: none;
     }
     
     .hoverNao {
         height: auto;
     }
+    /*footer responsive*/
     
-    .div3 .btnstart {
-        margin-top: 32px;
+    .aglinCenter {
+        text-align: center;
+    }
+    
+    .oduoi {
+        margin-left: 60px;
+    }
+    
+    .chuxam {
+        width: 305px;
+    }
+    /*responsive update have screen 768*/
+    
+    .content .row {
+        height: auto;
+        width: 100%;
+        border: none;
+        border-radius: 38px 0px 0px 38px;
+        margin-right: 0px!important;
+    }
+    /*css have  input end*/
+    
+    #list input[type="text"] {
+        width: 100%;
+    }
+    
+    section#list button {
+        margin: 20px 0px 0px 0px!important;
+        border-radius: 38px;
+    }
+    
+    .inputFooter {
+        border-radius: 38px;
+    }
+    
+    .btnFooter {
+        font-size: 10px;
+        width: 90px;
+        width: 100%;
+    }
+    
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    
+    .divbaongoai,
+    .divBaongoai2 {
+        width: 100%;
+    }
+    
+    .khongAnh {}
+    
+    .borderArow {
+        width: 50%;
+        float: none;
+    }
+    
+    .MauTrang:after {
+        display: none;
+    }
+    
+    .duoi .MauTrang {
+        height: auto;
+    }
+    
+    .duoi .MauTrang {
+        float: none;
+    }
+    
+    .tieude {
+        position: relative;
+        top: 29px;
+    }
+    
+    .GOC {
+        margin-bottom: 39px;
     }
 }
 @media (max-width:768px) and (min-width:500px) {
@@ -2181,10 +2258,6 @@ a.navbar-brand {
     
     .GOC {
         padding-bottom: 20px;
-    }
-    
-    .GioiThieuAdmin .container {
-        margin-bottom: 20px;
     }
     
     .StyleTour h1 {
