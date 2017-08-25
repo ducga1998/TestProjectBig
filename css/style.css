@@ -3,10 +3,6 @@
     padding-right: 0px!important;
 }
 
-.tableDisplay {
-    display: table;
-}
-
 .duoi {
     padding-left: 0px!important;
     padding-right: 0px!important;
@@ -1940,6 +1936,11 @@ a.navbar-brand {
     }
 }
 @media (max-width:768px) and (min-width:500px) {
+    .MauTrang {
+        margin: 0 auto;
+        display: block;
+    }
+    
     footer .contaier {
         padding-left: 118px;
     }
@@ -2086,6 +2087,46 @@ a.navbar-brand {
     }
     /*responsive update have screen 768*/
     
+    .content .row {
+        height: auto;
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 6px 6px 12px #fff;
+    }
+    /*css have  input end*/
+    
+    .div3 .btnstart {
+        margin-top: 32px;
+        padding: 10px 31px;
+        height: 43px;
+        font-size: 12px;
+    }
+    
+    .inputSearch2 {
+        background-color: transparent!important;
+        border: none!important;
+    }
+    
+    #list input[type="text"] {
+        width: 100%;
+    }
+    
+    section#list button {
+        margin: 20px 0px 0px 0px!important;
+        border-radius: 38px;
+    }
+    
+    .inputFooter {
+        border-radius: 38px;
+    }
+    
+    .btnFooter {
+        font-size: 10px;
+        width: 90px;
+        width: 100%;
+    }
+    
     .MauTrang {
         float: none;
         height: auto;
@@ -2093,6 +2134,11 @@ a.navbar-brand {
     
     .khongAnh:nth-child(2) {
         left: auto;
+    }
+    
+    .divbaongoai,
+    .divBaongoai2 {
+        width: 100%;
     }
     
     .khongAnh {
@@ -2114,6 +2160,11 @@ a.navbar-brand {
     
     .duoi .MauTrang {
         float: none;
+    }
+    
+    .tieude {
+        position: relative;
+        top: 29px;
     }
 }
 
