@@ -2085,6 +2085,35 @@ a.navbar-brand {
 
 /*end responsive 768px to 500px*/
 @media (max-width:499px) and (min-width:319px) {
+    /* responsive web screen 499px to 319px*/
+    /*css have  input begin*/
+    
+    .content .row {
+        height: auto;
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 6px 6px 12px #fff;
+    }
+    /*css have  input end*/
+    
+    .div3 .btnstart {
+        margin-top: 32px;
+        padding: 10px 31px;
+        height: 43px;
+        font-size: 12px;
+    }
+    
+    .inputSearch2 {
+        background-color: transparent!important;
+    }
+    
+    .tatPadding:nth-child(3) {
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    /*code have*/
+    
     #list li {
         text-align: center;
         font-size: 150%;
@@ -2178,18 +2207,13 @@ a.navbar-brand {
     }
     
     .KhoiRealvit h3 {
+        margin: 0px;
+        margin-bottom: 20px;
         float: none;
     }
     
     .content {
         float: none;
-    }
-    
-    .content .row {
-        height: auto;
-        width: 100%;
-        border: none;
-        border-radius: 0px;
     }
     
     .inputSearch3 {
