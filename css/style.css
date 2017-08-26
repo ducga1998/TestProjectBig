@@ -56,8 +56,6 @@ img.imgLarge {
     width: 50%;
 }
 
-.khongAnh:nth-child(1) {}
-
 .khongAnh:hover .btnHover {
     opacity: 1;
     top: 50%;
@@ -1552,412 +1550,337 @@ a.navbar-brand {
 }
 
 
-}
-
 /*code*/
 
+@media (min-width:1200px) and (max-width:1368px) {
+    a.navbar-brand {
+        padding-right: 28px;
+        padding-left: 13px;
+    }
+    ul.nav.navbar-nav.paddingAdd li {
+        margin-right: 0px;
+    }
+    .borderArow {
+        float: left;
+        width: 292px;
+    }
+    .MauTrang {
+        height: 348px;
+    }
+}
+
+
 /* iPads (portrait and landscape) ----------- */
-@media(min-width: 1025px) and (max-width:1400px) {
+
+@media(min-width: 1024px) and (max-width:1199px) {
     .hiddenResponsive {
         display: none;
     }
-    
     .ClassRow1 {
         display: block;
     }
-    
     .longVao {
         text-align: center;
     }
-    
     .inputFooter {
         border-radius: 38px;
     }
-    
     .btnFooter {
         border-radius: 38px;
     }
-    
     section#list button {
         margin: 20px 0px 0px 0px;
     }
-    
     .borderArow .btnHover {
         left: 10%;
     }
-    
     .btnHover {
         left: 20%;
     }
-    
     .LongText p {
         font-size: 12px;
     }
-    
     .h2threePicture h2 {
         font-size: 20px;
     }
-    
     .content .row {
         border-radius: 38px!important;
     }
-    
     .tatPadding:nth-child(3) {
         background-color: transparent;
     }
-    
     .inputSearch2 {
         width: 90%!important;
     }
-    
     ul.nav.navbar-nav.paddingAdd {
         margin-left: -74px;
     }
-    
     ul.nav.navbar-nav.paddingAdd li {
         padding: 0px;
     }
-    
     ul.nav.navbar-nav.navbar-right li a {
         padding: 11px;
     }
-    
     a.navbar-brand {
         padding-left: 16px;
     }
-    
     .container-fluid>.navbar-collapse {
         display: none !important;
     }
-    
     .navbar-header {
         width: 100%;
     }
-    
     .container-fluid>.navbar-collapse li {
         display: inline-block;
     }
-    
     .fa.fa-bars {
         color: aqua;
         font-size: 25px;
     }
-    
     .navbar-toggle .icon-bar {
         display: block;
     }
     /*edit after*/
-    
     ._3conNguoi {
         height: auto;
     }
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
-    
     .duoi .MauTrang {
         width: 50%;
     }
-    
     .lentren {
         margin-top: -194px;
     }
-    
     .content {
         float: none;
     }
-    
     .KhoiRealvit h3 {
         float: none;
     }
-    
     .content {
         float: none;
     }
-    
     .widthSet {
         width: 600px;
     }
-    
     .content .row {
         height: auto;
         width: 100%;
         border: none;
         border-radius: 0px;
     }
-    
     .inputSearch3 {
         text-align: center;
     }
-    
     .tatPadding {
         height: auto;
     }
-    
     .inputSearch3 {
         border-radius: 0px;
     }
-    
     .div3 {
         text-align: center;
         float: none;
     }
-    
     .div3 .btnstart {
         border-radius: 38px;
     }
-    
     ._3CaiAnh {
         height: auto;
     }
-    
     .chuxam {
         width: 1000px;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
         padding-bottom: 20px;
     }
-    
     .owl-nav {
         display: none;
     }
-    
     .BaoNgoaiThayTheCarourel {
         font-size: 50%;
     }
-    
     .divBlock {
         display: none;
     }
-    
     .hoverNao {
         height: auto;
     }
-    
     .div3 .btnstart {
         margin-top: 32px;
     }
 }
+
 @media (max-width:1024px) and (min-width:767px) {
     .khongAnh:hover .btnHover {
         left: 37%;
     }
-    
     .btnHover {
         left: 37%;
     }
-    
     .borderArow .btnHover {
         left: 37%;
     }
-    
     .borderArow:hover .btnHover {
         left: 37%;
     }
-    
     .borderArow:before {
         display: none;
     }
-    
     .testt {
         height: 200px;
     }
-    
     .tatPadding:nth-child(3) {
         background-color: transparent;
     }
-    
     .hiddenResponsive {}
     /*part in 1024px*/
-    
     .navbar-header {
         float: none;
     }
-    
     .navbar-toggle {
         display: block;
     }
-    
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
-    
     .navbar-collapse.collapse {
         display: none!important;
     }
-    
     .navbar-nav {
         float: none!important;
         margin: 7.5px -15px;
     }
-    
     .navbar-nav>li {
         float: none;
     }
-    
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
     .ClassRow1 {
         display: block;
     }
-    
     .navbar-header {
         float: none;
     }
-    
     .navbar-toggle {
         display: block;
     }
-    
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
-    
     .navbar-collapse.collapse {
         display: none!important;
     }
-    
     .navbar-nav {
         float: none!important;
         margin: 7.5px -15px;
     }
-    
     .navbar-nav>li {
         float: none;
     }
-    
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
     .GioiThieuAdmin {
         padding-bottom: 20px;
         height: auto;
     }
     /*trong khoáº£ng tá»« 1200 Ä‘áº¿n 700px*/
-    
     ._3conNguoi {
         height: auto;
     }
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
-    
     .lentren {
         margin-top: -194px;
     }
-    
     .KhoiRealvit h3 {
         float: none;
     }
-    
     .widthSet {
         width: 600px;
     }
-    
     ._3CaiAnh {
         height: auto;
     }
-    
     .chuxam {
         width: 700px;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
     }
-    
     .owl-nav {
         display: none;
     }
-    
     .BaoNgoaiThayTheCarourel {
         font-size: 50%;
     }
-    
     .hoverNao {
         height: auto;
     }
     /*screen 1024px */
-    
     .MauTrang {
         margin: 0 auto;
         display: block;
     }
-    
     footer .contaier {
         padding-left: 118px;
     }
-    
     .hiddenResponsive {
         display: block;
     }
-    
     .ClassRow1 {
         display: none;
     }
-    
     ._3conNguoi {
         height: auto;
     }
-    
     .duoi .MauTrang {
         width: 50%;
     }
-    
     .lentren {
         margin-top: -194px;
     }
-    
     .KhoiRealvit h3 {
         float: none;
     }
-    
     .widthSet {
         width: 600px;
     }
-    
     ._3CaiAnh {
         height: auto;
     }
-    
     .chuxam {
         width: 200px;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
     }
-    
     .owl-nav {
         display: none;
     }
-    
     .hoverNao {
         height: auto;
     }
     /*footer responsive*/
-    
     .aglinCenter {
         text-align: center;
     }
-    
     .oduoi {
         margin-left: 60px;
     }
-    
     .chuxam {
         width: 305px;
     }
     /*responsive update have screen 768*/
-    
     .content .row {
         height: auto;
         width: 100%;
@@ -1966,220 +1889,172 @@ a.navbar-brand {
         margin-right: 0px!important;
     }
     /*css have  input end*/
-    
     #list input[type="text"] {
         width: 100%;
     }
-    
     section#list button {
         margin: 20px 0px 0px 0px!important;
         border-radius: 38px;
     }
-    
     .inputFooter {
         border-radius: 38px;
     }
-    
     .btnFooter {
         font-size: 10px;
         width: 90px;
         width: 100%;
     }
-    
     .MauTrang {
         float: none;
         height: auto;
     }
-    
     .khongAnh:nth-child(2) {
         left: auto;
     }
-    
     .divbaongoai,
     .divBaongoai2 {
         width: 100%;
     }
-    
     .khongAnh {}
-    
     .borderArow {
         width: 50%;
         float: none;
     }
-    
     .MauTrang:after {
         display: none;
     }
-    
     .duoi .MauTrang {
         height: auto;
     }
-    
     .duoi .MauTrang {
         float: none;
     }
-    
     .tieude {
         position: relative;
         top: 29px;
     }
-    
     .GOC {
         margin-bottom: 39px;
     }
 }
+
 @media (max-width:768px) and (min-width:500px) {
     .MauTrang {
         margin: 0 auto;
         display: block;
     }
-    
     footer .contaier {
         padding-left: 118px;
     }
-    
     .hiddenResponsive {
         display: none;
     }
-    
     .ClassRow1 {
         display: block;
     }
-    
     .navbar-header {
         float: none;
     }
-    
     .navbar-toggle {
         display: block;
     }
-    
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
-    
     .navbar-collapse.collapse {
         display: none!important;
     }
-    
     .navbar-nav {
         float: none!important;
     }
-    
     .navbar-nav>li {
         float: none;
     }
-    
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
     ._3conNguoi {
         height: auto;
     }
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
-    
     .duoi .MauTrang {
         width: 50%;
     }
-    
     .lentren {
         margin-top: -194px;
     }
-    
     .content {
         float: none;
     }
-    
     .KhoiRealvit h3 {
         float: none;
     }
-    
     .content {
         float: none;
     }
-    
     .widthSet {
         width: 600px;
     }
-    
     .content .row {
         height: auto;
         width: 100%;
         border: none;
         border-radius: 0px;
     }
-    
     .inputSearch3 {
         text-align: center;
     }
-    
     .tatPadding {
         height: auto;
     }
-    
     .inputSearch3 {
         border-radius: 0px;
     }
-    
     .div3 {
         text-align: center;
         float: none;
     }
-    
     .div3 .btnstart {
         border-radius: 38px;
     }
-    
     ._3CaiAnh {
         height: auto;
     }
-    
     .chuxam {
         width: 200px;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
     }
-    
     .owl-nav {
         display: none;
     }
-    
     .BaoNgoaiThayTheCarourel {
         font-size: 50%;
     }
-    
     .divBlock {
         display: none;
     }
-    
     .hoverNao {
         height: auto;
     }
-    
     .div3 .btnstart {
         margin-top: 32px;
     }
     /*footer responsive*/
-    
     .aglinCenter {
         text-align: center;
     }
-    
     .oduoi {
         margin-left: 60px;
     }
-    
     .chuxam {
         width: 305px;
     }
     /*responsive update have screen 768*/
-    
     .content .row {
         height: auto;
         width: 100%;
@@ -2188,112 +2063,92 @@ a.navbar-brand {
         box-shadow: 6px 6px 12px #fff;
     }
     /*css have  input end*/
-    
     .div3 .btnstart {
         margin-top: 32px;
         padding: 10px 31px;
         height: 43px;
         font-size: 12px;
     }
-    
     .inputSearch2 {
         background-color: transparent!important;
         border: none!important;
     }
-    
     #list input[type="text"] {
         width: 100%;
     }
-    
     section#list button {
         margin: 20px 0px 0px 0px!important;
         border-radius: 38px;
     }
-    
     .inputFooter {
         border-radius: 38px;
     }
-    
     .btnFooter {
         font-size: 10px;
         width: 90px;
         width: 100%;
     }
-    
     .MauTrang {
         float: none;
         height: auto;
     }
-    
     .khongAnh:nth-child(2) {
         left: auto;
     }
-    
     .divbaongoai,
     .divBaongoai2 {
         width: 100%;
     }
-    
     .khongAnh {
         position: static;
     }
-    
     .borderArow {
         width: 50%;
         float: none;
     }
-    
     .MauTrang:after {
         display: none;
     }
-    
     .duoi .MauTrang {
         height: auto;
     }
-    
     .duoi .MauTrang {
         float: none;
     }
-    
     .tieude {
         position: relative;
         top: 29px;
     }
 }
 
+
 /*end responsive 768px to 500px*/
+
 @media (max-width:499px) and (min-width:319px) {
     .longVao {
         display: block;
     }
-    
     .MauTrang {
         float: none;
         height: auto;
     }
-    
     .GOC {
         padding-bottom: 20px;
     }
-    
     .StyleTour h1 {
         font-size: 29px!important;
     }
-    
     .Deal h1 {
         font-size: 25px;
     }
-    
     ._3dongChu h3 {
         font-size: 15px;
     }
-    
     ._3dongChu h2 {
         font-size: 11px;
     }
     /* responsive web screen 499px to 319px*/
     /*css have  input begin*/
-    
     .content .row {
         height: auto;
         width: 100%;
@@ -2302,212 +2157,165 @@ a.navbar-brand {
         box-shadow: 6px 6px 12px #fff;
     }
     /*css have  input end*/
-    
     .div3 .btnstart {
         margin-top: 32px;
         padding: 10px 31px;
         height: 43px;
         font-size: 12px;
     }
-    
     .inputSearch2 {
         background-color: transparent!important;
         border: none!important;
     }
-    
     .tatPadding:nth-child(3) {
         border-radius: 20px;
         background-color: transparent;
     }
     /*code have*/
-    
     #list li {}
-    
     #list input[type="text"] {
         width: 100%;
     }
-    
     section#list button {
         margin: 20px 0px 0px 0px!important;
         border-radius: 38px;
     }
-    
     .oduoi {
         text-align: center;
     }
-    
     .inputFooter {
         border-radius: 38px;
     }
-    
     .btnFooter {
         font-size: 10px;
         width: 90px;
         width: 100%;
     }
-    
     .tieude {
         position: relative;
         top: 29px;
     }
-    
     .khongAnh img {
         width: 100%!important;
     }
-    
     .khongAnh:nth-child(2) {
         left: auto;
     }
-    
     .khongAnh {
         position: static;
     }
-    
     .borderArow {
         width: 50%;
         float: none;
     }
-    
     .hiddenResponsive {
         display: none;
     }
-    
     .ClassRow1 {
         display: block;
     }
-    
     .divbaongoai {
         width: 100%;
     }
-    
     .divBaongoai2 {
         width: 100%;
     }
-    
     .widthSet {
         width: 300px;
     }
-    
     .chuxam {
         width: 305px;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
     }
-    
     .hoverNao {
         height: auto;
     }
     /*delete thá»­ nghiá»‡m*/
-    
     ._3conNguoi {
         height: auto;
     }
     /*á»Ÿ dÆ°á»›i 768px thÃ¬*/
-    
     .duoi .MauTrang {
         width: 50%;
         float: none;
     }
-    
     .lentren {
         margin-top: -194px;
     }
-    
     .content {
         float: none;
     }
-    
     .KhoiRealvit h3 {
         margin: 0px;
         margin-bottom: 20px;
         float: none;
     }
-    
     .content {
         float: none;
     }
-    
     .inputSearch3 {
         text-align: center;
     }
-    
     .tatPadding {
         height: auto;
     }
-    
     .inputSearch3 {
         border-radius: 0px;
     }
-    
     .div3 {
         text-align: center;
         float: none;
         margin-right: 25px;
     }
-    
     .div3 .btnstart {
         border-radius: 38px;
     }
-    
     ._3CaiAnh {
         height: auto;
     }
-    
     .PhanGanCuoi {
         height: auto;
         background-size: cover;
     }
-    
     .owl-nav {
         display: none;
     }
-    
     .BaoNgoaiThayTheCarourel {
         font-size: 50%;
     }
-    
     .divBlock {
         display: none;
     }
-    
     .hoverNao {
         height: auto;
     }
-    
     .div3 .btnstart {
         margin-top: 32px;
     }
-    
     .lentren {
         display: none;
     }
-    
     .GioiThieuAdmin {
         height: auto;
     }
-    
     .Thetable li {
         font-size: 12px!important;
         margin-right: 10px;
     }
     /*css cure execise responsive 414px min-width*/
-    
     .PartVideoText h1 {
         font-size: 24px;
     }
-    
     .MauTrang:after {
         display: none;
     }
     /*part diffcutl in img nhiá»u*/
-    
     .btnHover {
         left: 9%;
     }
-    
     .btnHover {
         width: 98px;
         height: 29px;
@@ -2517,41 +2325,39 @@ a.navbar-brand {
         left: 19%;
         font-size: 10px;
     }
-    
     .borderArow:before {
         display: none;
     }
-    
     .duoi .MauTrang {
         height: auto;
     }
-    
     .khongAnh:nth-child(1) {
         left: auto;
     }
-    
     .MauTrang {
         display: inline-block;
         width: 51%;
     }
-    
     img.imgLarge {
         width: 65px;
     }
-    
     .BaoNgoaiThayTheCarourel {
         height: 580px;
     }
 }
+
 .PartVideoText h1 {
     display: block;
     font-weight: 900;
 }
+
 .duoi .MauTrang {
     float: none;
 }
 
+
 /*note: cÃ¡c p pháº£i Ä‘c chá»‰nh láº¡i width má»—i khi thÃªm má»™t media*/
+
 
 /* @media (max-width: 768px) {
                     .container {
