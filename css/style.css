@@ -124,7 +124,7 @@ span.Blue {
 .borderArow {
     display: inline-block;
     float: none;
-    width: 342px;
+    width: 49%;
     position: relative;
 }
 
@@ -797,10 +797,6 @@ p {
 
 p.chuxam {
     color: gray;
-}
-
-.phanAnhTo .col-md-3 {
-    width: 25%;
 }
 
 .nav-barsHienRa {
