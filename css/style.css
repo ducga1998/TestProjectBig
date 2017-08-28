@@ -1553,6 +1553,16 @@ a.navbar-brand {
 /*code*/
 
 @media (min-width:1200px) and (max-width:1368px) {
+    .inputSearch2 {
+        background-color: transparent!important;
+    }
+    button.btnstart {
+        padding: 23px 50px 29px 67px;
+        font-size: 11px;
+    }
+    .phanAnhTo .col-md-3 {
+        width: 108px;
+    }
     a.navbar-brand {
         padding-right: 28px;
         padding-left: 13px;
@@ -1569,10 +1579,24 @@ a.navbar-brand {
     }
 }
 
+.phanAnhTo .col-md-3 {}
+
 
 /* iPads (portrait and landscape) ----------- */
 
 @media(min-width: 1024px) and (max-width:1199px) {
+    .divBlock {
+        display: block;
+    }
+    .testt {
+        height: 241px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .content .row {
+        width: 100%;
+    }
     .hiddenResponsive {
         display: none;
     }
@@ -1602,9 +1626,6 @@ a.navbar-brand {
     }
     .h2threePicture h2 {
         font-size: 20px;
-    }
-    .content .row {
-        border-radius: 38px!important;
     }
     .tatPadding:nth-child(3) {
         background-color: transparent;
@@ -1651,39 +1672,17 @@ a.navbar-brand {
     .lentren {
         margin-top: -194px;
     }
-    .content {
-        float: none;
-    }
     .KhoiRealvit h3 {
-        float: none;
-    }
-    .content {
         float: none;
     }
     .widthSet {
         width: 600px;
-    }
-    .content .row {
-        height: auto;
-        width: 100%;
-        border: none;
-        border-radius: 0px;
     }
     .inputSearch3 {
         text-align: center;
     }
     .tatPadding {
         height: auto;
-    }
-    .inputSearch3 {
-        border-radius: 0px;
-    }
-    .div3 {
-        text-align: center;
-        float: none;
-    }
-    .div3 .btnstart {
-        border-radius: 38px;
     }
     ._3CaiAnh {
         height: auto;
@@ -1702,18 +1701,49 @@ a.navbar-brand {
     .BaoNgoaiThayTheCarourel {
         font-size: 50%;
     }
-    .divBlock {
-        display: none;
-    }
     .hoverNao {
         height: auto;
     }
-    .div3 .btnstart {
-        margin-top: 32px;
+    /* responesive web */
+    .borderArow .btnHover {
+        left: 37%;
+    }
+    .borderArow:hover .btnHover {
+        left: 37%;
+    }
+    .borderArow:before {
+        display: none;
+    }
+    .MauTrang {
+        margin: 0 auto;
+        display: block;
+    }
+    .duoi .MauTrang {
+        width: 50%;
+    }
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    .borderArow {
+        width: 50%;
+        float: none;
+    }
+    .MauTrang:after {
+        display: none;
+    }
+    .duoi .MauTrang {
+        height: auto;
+    }
+    .duoi .MauTrang {
+        float: none;
     }
 }
 
-@media (max-width:1024px) and (min-width:767px) {
+@media (max-width:1023px) and (min-width:767px) {
     .khongAnh:hover .btnHover {
         left: 37%;
     }
