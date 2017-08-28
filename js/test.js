@@ -1,36 +1,13 @@
   $(document).ready(function () {
-      $(".Topscroll a").on("click", function (event) {
 
+      $(".Topscroll a").on("click", function (event) {
           event.preventDefault(); /*XÓA MỌI LIÊN KẾT từ <a>*/
           $("body").animate({
               scrollTop: 0,
               offset: 0
-          }, 2000, "easeOutCubic");
-      });
-      $(".Topscroll a").click(function (e) {
-          e.preventDefault();
-          $("body").animate({
-              scrollTop: 0,
-              offset: 0
-          }, 2000, );
-
+          }, 1000, "easeInOutQuart");
 
       });
-
-
-      /* });
-       $(window).scroll(function () {
-           var VitriWindows = $('body').scrollTop();
-           var viTrinhanHieu = $(".PhanShowCacHinhAnhPast1 ").offset().top;
-           var dem = 0;
-           if (VitriWindows >= viTrinhanHieu) {
-               $(".container-fluid").addClass("nav-barsHienRa");
-               $(".navbar").addClass("Trangs");
-           } else {
-               $(".container-fluid").removeClass("nav-barsHienRa");
-               $(".navbar").css({})
-           }
-       });*/
       $('.owl-carousel').owlCarousel({
           loop: true,
           margin: 20,
@@ -59,10 +36,7 @@
 
       $(window).resize(function () {
           FullScreen();
-      })
-
-
-
+      });
 
 
 
