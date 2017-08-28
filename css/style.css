@@ -1038,7 +1038,7 @@ p.chuxam {
 
 ._3CaiAnh img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 ._3CaiAnh col-md-4 {
@@ -1054,7 +1054,7 @@ p.chuxam {
     border-radius: 50%;
     bottom: 7px;
     color: #fff;
-    content: "â€œ";
+    content: "“";
     font-size: 36px;
     font-weight: 700;
     height: 28px;
@@ -1371,7 +1371,7 @@ section.canChinh {
     overflow: hidden;
     width: 100%;
     transition: 0.8s;
-    height: 320px;
+    /* height: 320px; */
 }
 
 i.fa.fa-map-marker {
@@ -2418,9 +2418,6 @@ a.navbar-brand {
 }
 
 .duoi .MauTrang {}
-
-
-/*note: cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c p phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£i ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“c chÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°nh lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i width mÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âi khi thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm mÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢t media*/
 
 
 /* @media (max-width: 768px) {
