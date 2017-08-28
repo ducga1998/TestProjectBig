@@ -73,6 +73,7 @@ img.imgLarge {
     vertical-align: middle;
     line-height: normal;
     height: 100%;
+    display: table-cell;
 }
 
 * {
@@ -951,7 +952,7 @@ p.chuxam {
 .hoverNao:hover .testt img {
     transition: all 0.3s;
     transform: scale(1.1);
-    /*to ÃƒÂ¡Ã‚ÂºÃ‚Â£nh lÃƒÆ’Ã‚Âªn*/
+    /*to ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£nh lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªn*/
 }
 
 .hoverNao {
@@ -1053,7 +1054,7 @@ p.chuxam {
     border-radius: 50%;
     bottom: 7px;
     color: #fff;
-    content: "“";
+    content: "â€œ";
     font-size: 36px;
     font-weight: 700;
     height: 28px;
@@ -1637,7 +1638,7 @@ a.navbar-brand {
         left: 10%;
     }
     .btnHover {
-        left: 20%;
+        left: 37%;
     }
     .LongText p {
         font-size: 12px;
@@ -1683,7 +1684,7 @@ a.navbar-brand {
     ._3conNguoi {
         height: auto;
     }
-    /*ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 768px thÃƒÆ’Ã‚Â¬*/
+    /*ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ dÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âºi 768px thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬*/
     .duoi .MauTrang {
         width: 50%;
     }
@@ -1759,9 +1760,16 @@ a.navbar-brand {
     .duoi .MauTrang {
         float: none;
     }
+    .borderArowA1 {
+        float: none;
+    }
 }
 
 @media (max-width:1023px) and (min-width:767px) {
+    .borderArowA1 {
+        float: none;
+        width: 89%;
+    }
     .khongAnh:hover .btnHover {
         left: 37%;
     }
@@ -1838,11 +1846,11 @@ a.navbar-brand {
         padding-bottom: 20px;
         height: auto;
     }
-    /*trong khoÃƒÂ¡Ã‚ÂºÃ‚Â£ng tÃƒÂ¡Ã‚Â»Ã‚Â« 1200 Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â¿n 700px*/
+    /*trong khoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£ng tÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â« 1200 ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿n 700px*/
     ._3conNguoi {
         height: auto;
     }
-    /*ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 768px thÃƒÆ’Ã‚Â¬*/
+    /*ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ dÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âºi 768px thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬*/
     .lentren {
         margin-top: -194px;
     }
@@ -2024,7 +2032,7 @@ a.navbar-brand {
     ._3conNguoi {
         height: auto;
     }
-    /*ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 768px thÃƒÆ’Ã‚Â¬*/
+    /*ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ dÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âºi 768px thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬*/
     .duoi .MauTrang {
         width: 50%;
     }
@@ -2291,11 +2299,11 @@ a.navbar-brand {
     .hoverNao {
         height: auto;
     }
-    /*delete thÃƒÂ¡Ã‚Â»Ã‚Â­ nghiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m*/
+    /*delete thÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â­ nghiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡m*/
     ._3conNguoi {
         height: auto;
     }
-    /*ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 768px thÃƒÆ’Ã‚Â¬*/
+    /*ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€¦Ã‚Â¸ dÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°ÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âºi 768px thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬*/
     .duoi .MauTrang {
         width: 89%;
         float: none;
@@ -2370,7 +2378,7 @@ a.navbar-brand {
     .MauTrang:after {
         display: none;
     }
-    /*part diffcutl in img nhiÃƒÂ¡Ã‚Â»Ã‚Âu*/
+    /*part diffcutl in img nhiÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Âu*/
     .btnHover {
         left: 9%;
     }
@@ -2412,7 +2420,7 @@ a.navbar-brand {
 .duoi .MauTrang {}
 
 
-/*note: cÃƒÆ’Ã‚Â¡c p phÃƒÂ¡Ã‚ÂºÃ‚Â£i Ãƒâ€žÃ¢â‚¬Ëœc chÃƒÂ¡Ã‚Â»Ã¢â‚¬Â°nh lÃƒÂ¡Ã‚ÂºÃ‚Â¡i width mÃƒÂ¡Ã‚Â»Ã¢â‚¬â€i khi thÃƒÆ’Ã‚Âªm mÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢t media*/
+/*note: cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡c p phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â£i ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“c chÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°nh lÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡i width mÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âi khi thÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âªm mÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢t media*/
 
 
 /* @media (max-width: 768px) {
