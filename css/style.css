@@ -73,7 +73,6 @@ img.imgLarge {
     vertical-align: middle;
     line-height: normal;
     height: 100%;
-    display: table-cell;
 }
 
 * {
@@ -1778,9 +1777,7 @@ a.navbar-brand {
     .borderArow:before {
         display: none;
     }
-    .testt {
-        height: 200px;
-    }
+    .testt {}
     .tatPadding:nth-child(3) {
         background-color: transparent;
     }
@@ -2140,6 +2137,7 @@ a.navbar-brand {
     .MauTrang {
         float: none;
         height: auto;
+        width: 89%;
     }
     .khongAnh:nth-child(2) {
         left: auto;
@@ -2150,9 +2148,10 @@ a.navbar-brand {
     }
     .khongAnh {
         position: static;
+        width: 89%;
     }
     .borderArow {
-        width: 50%;
+        width: 89%;
         float: none;
     }
     .MauTrang:after {
@@ -2163,10 +2162,15 @@ a.navbar-brand {
     }
     .duoi .MauTrang {
         float: none;
+        width: 89%;
     }
     .tieude {
         position: relative;
         top: 29px;
+    }
+    .borderArowA1 {
+        float: none;
+        width: 89%;
     }
 }
 
@@ -2174,6 +2178,10 @@ a.navbar-brand {
 /*end responsive 768px to 500px*/
 
 @media (max-width:499px) and (min-width:319px) {
+    .borderArowA1 {
+        float: none;
+        width: 89%;
+    }
     .longVao {
         display: block;
     }
@@ -2252,9 +2260,10 @@ a.navbar-brand {
     }
     .khongAnh {
         position: static;
+        width: 89%;
     }
     .borderArow {
-        width: 50%;
+        width: 89%;
         float: none;
     }
     .hiddenResponsive {
@@ -2288,7 +2297,7 @@ a.navbar-brand {
     }
     /*ÃƒÂ¡Ã‚Â»Ã…Â¸ dÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 768px thÃƒÆ’Ã‚Â¬*/
     .duoi .MauTrang {
-        width: 50%;
+        width: 89%;
         float: none;
     }
     .lentren {
@@ -2385,7 +2394,7 @@ a.navbar-brand {
     }
     .MauTrang {
         display: inline-block;
-        width: 51%;
+        width: 89%;
     }
     img.imgLarge {
         width: 65px;
