@@ -126,6 +126,7 @@ img.imgLarge {
     vertical-align: middle;
     line-height: normal;
     height: 100%;
+    display: table-cell;
 }
 
 * {
