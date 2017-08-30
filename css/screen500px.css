@@ -1,0 +1,238 @@
+@media (max-width:499px) {
+    .PhanGanCuoi {
+        padding-top: 50px;
+    }
+    .oduoi {
+        margin-left: 20px;
+    }
+    footer .contaier {
+        padding-left: 20px;
+    }
+    .borderArowA1 {
+        float: none;
+        width: 89%;
+    }
+    .longVao {
+        display: block;
+    }
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    .GOC {
+        padding-bottom: 20px;
+    }
+    .StyleTour h1 {
+        font-size: 29px!important;
+    }
+    .Deal h1 {
+        font-size: 25px;
+    }
+    ._3dongChu h3 {
+        font-size: 15px;
+    }
+    ._3dongChu h2 {
+        font-size: 11px;
+    }
+    /* responsive web screen 499px to 319px*/
+    /*css have  input begin*/
+    .content .row {
+        height: auto;
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 6px 6px 12px #fff;
+    }
+    /*css have  input end*/
+    .div3 .btnstart {
+        margin-top: 32px;
+        padding: 10px 31px;
+        height: 43px;
+        font-size: 12px;
+    }
+    .inputSearch2 {
+        background-color: transparent!important;
+        border: none!important;
+    }
+    .tatPadding:nth-child(3) {
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    /*code have*/
+    #list li {}
+    #list input[type="text"] {
+        width: 100%;
+    }
+    section#list button {
+        margin: 20px 0px 0px 0px!important;
+        border-radius: 38px;
+    }
+    .oduoi {
+        text-align: center;
+    }
+    .inputFooter {
+        border-radius: 38px;
+    }
+    .btnFooter {
+        font-size: 10px;
+        width: 90px;
+        width: 100%;
+    }
+    .tieude {
+        position: relative;
+        top: 29px;
+    }
+    .khongAnh img {
+        width: 100%!important;
+    }
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    .khongAnh {
+        position: static;
+        width: 89%;
+    }
+    .borderArow {
+        width: 89%;
+        float: none;
+    }
+    .hiddenResponsive {
+        display: none;
+    }
+    .ClassRow1 {
+        display: block;
+    }
+    .divbaongoai {
+        width: 100%;
+    }
+    .divBaongoai2 {
+        width: 100%;
+    }
+    .widthSet {
+        width: 300px;
+    }
+    .chuxam {
+        width: 305px;
+    }
+    .PhanGanCuoi {
+        height: auto;
+        background-size: cover;
+    }
+    .hoverNao {
+        height: auto;
+    }
+    ._3conNguoi {
+        height: auto;
+    }
+    .duoi .MauTrang {
+        width: 89%;
+        float: none;
+    }
+    .lentren {
+        margin-top: -194px;
+    }
+    .content {
+        float: none;
+    }
+    .KhoiRealvit h3 {
+        margin: 0px;
+        margin-bottom: 20px;
+        float: none;
+    }
+    .content {
+        float: none;
+    }
+    .inputSearch3 {
+        text-align: center;
+    }
+    .tatPadding {
+        height: auto;
+    }
+    .inputSearch3 {
+        border-radius: 0px;
+    }
+    .div3 {
+        text-align: center;
+        float: none;
+        margin-right: 25px;
+    }
+    .div3 .btnstart {
+        border-radius: 38px;
+    }
+    ._3CaiAnh {
+        height: auto;
+    }
+    .PhanGanCuoi {
+        height: auto;
+        background-size: cover;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .BaoNgoaiThayTheCarourel {
+        font-size: 50%;
+    }
+    .divBlock {
+        display: none;
+    }
+    .hoverNao {
+        height: auto;
+    }
+    .div3 .btnstart {
+        margin-top: 32px;
+    }
+    .lentren {
+        display: none;
+    }
+    .GioiThieuAdmin {
+        height: auto;
+    }
+    .Thetable li {
+        font-size: 11px!important;
+        margin-right: 6px;
+    }
+    /*css cure execise responsive 414px min-width*/
+    .PartVideoText h1 {
+        font-size: 24px;
+    }
+    .MauTrang:after {
+        display: none;
+    }
+    .btnHover {
+        left: 9%;
+    }
+    .btnHover {
+        width: 98px;
+        height: 29px;
+        border-radius: 34px;
+        color: white;
+        top: 55%;
+        left: 19%;
+        font-size: 10px;
+    }
+    .borderArow:before {
+        display: none;
+    }
+    .duoi .MauTrang {
+        height: auto;
+    }
+    .khongAnh:nth-child(1) {
+        left: auto;
+    }
+    .MauTrang {
+        display: inline-block;
+        width: 89%;
+    }
+    img.imgLarge {
+        width: 65px;
+    }
+    .BaoNgoaiThayTheCarourel {
+        height: 580px;
+    }
+}
+
+@media(max-width:320px) {
+    .navbar-toggle {
+        left: 20px;
+    }
+}

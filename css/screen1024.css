@@ -1,0 +1,200 @@
+@media (max-width:1199px) {
+    .divBlock {
+        display: block;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .content .row {
+        width: 100%;
+    }
+    .hiddenResponsive {
+        display: block;
+    }
+    .ClassRow1 {
+        display: none;
+    }
+    .longVao {
+        text-align: center;
+    }
+    .inputFooter {
+        border-radius: 38px;
+    }
+    .btnFooter {
+        border-radius: 38px;
+    }
+    section#list button {
+        margin: 20px 0px 0px 0px;
+    }
+    .borderArow .btnHover {
+        left: 10%;
+    }
+    .btnHover {
+        left: 37%;
+    }
+    .LongText p {
+        font-size: 12px;
+    }
+    .h2threePicture h2 {
+        font-size: 20px;
+    }
+    .tatPadding:nth-child(3) {
+        background-color: transparent;
+    }
+    .inputSearch2 {
+        width: 90%!important;
+    }
+    ul.nav.navbar-nav.paddingAdd {
+        margin-left: -74px;
+    }
+    ul.nav.navbar-nav.paddingAdd li {
+        padding: 0px;
+    }
+    ul.nav.navbar-nav.navbar-right li a {
+        padding: 11px;
+    }
+    a.navbar-brand {
+        padding-left: 16px;
+    }
+    .container-fluid>.navbar-collapse {
+        display: none !important;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .container-fluid>.navbar-collapse li {
+        display: inline-block;
+    }
+    .fa.fa-bars {
+        color: aqua;
+        font-size: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+    }
+    /*edit after*/
+    ._3conNguoi {
+        height: auto;
+    }
+    .duoi .MauTrang {
+        width: 50%;
+    }
+    .lentren {
+        margin-top: -194px;
+    }
+    .KhoiRealvit h3 {
+        float: none;
+    }
+    .widthSet {
+        width: 600px;
+    }
+    .inputSearch3 {
+        text-align: center;
+    }
+    .tatPadding {
+        height: auto;
+    }
+    ._3CaiAnh {
+        height: auto;
+    }
+    .chuxam {
+        width: 1000px;
+    }
+    .PhanGanCuoi {
+        height: auto;
+        background-size: cover;
+        padding-bottom: 20px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .BaoNgoaiThayTheCarourel {
+        font-size: 50%;
+    }
+    .hoverNao {
+        height: auto;
+    }
+    /* responesive web */
+    .borderArow .btnHover {
+        left: 37%;
+    }
+    .borderArow:hover .btnHover {
+        left: 37%;
+    }
+    .borderArow:before {
+        display: none;
+    }
+    .MauTrang {
+        margin: 0 auto;
+        display: block;
+    }
+    .duoi .MauTrang {
+        width: 50%;
+    }
+    .MauTrang {
+        float: none;
+        height: auto;
+    }
+    .khongAnh:nth-child(2) {
+        left: auto;
+    }
+    .borderArow {
+        width: 50%;
+        float: none;
+    }
+    .MauTrang:after {
+        display: none;
+    }
+    .duoi .MauTrang {
+        height: auto;
+    }
+    .duoi .MauTrang {
+        float: none;
+    }
+    .borderArowA1 {
+        float: none;
+    }
+}
+
+@media (max-width:980px) {
+    .KhoiRealvit h3 {
+        margin: 0 0 20px 0px;
+    }
+    .div3 {
+        width: 100%;
+        text-align: center;
+    }
+    .div3 .btnstart {
+        border-radius: 38px;
+        widows: 200px;
+    }
+    .content {
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+    }
+    .divBlock {
+        display: none;
+    }
+    .PhanVideo {
+        margin-top: 50px;
+    }
+    .hiddenResponsive {
+        display: none;
+    }
+    .ClassRow1 {
+        display: block;
+    }
+    .inputSearch1 {
+        margin-left: 45px;
+    }
+    .inputSearch3 {
+        text-align: left;
+    }
+    .inputSearch2 {
+        margin-left: 45px;
+    }
+    .khongAnh {
+        height: auto;
+    }
+}
