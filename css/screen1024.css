@@ -1,4 +1,7 @@
 @media (max-width:1199px) {
+    .chua3inPut .container {
+        padding-left: 131px;
+    }
     .divBlock {
         display: block;
     }
