@@ -26,12 +26,8 @@
     section#list button {
         margin: 20px 0px 0px 0px;
     }
-    .borderArow .btnHover {
-        left: 10%;
-    }
-    .btnHover {
-        left: 37%;
-    }
+    .borderArow .btnHover {}
+    .btnHover {}
     .LongText p {
         font-size: 12px;
     }

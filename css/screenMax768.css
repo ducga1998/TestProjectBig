@@ -19,7 +19,7 @@
     }
     .MauTrang {
         margin: 0 auto;
-        display: block;
+        /*       bug*/
     }
     footer .contaier {
         padding-left: 118px;
@@ -170,9 +170,12 @@
         width: 100%;
     }
     .MauTrang {
-        float: none;
         height: auto;
         width: 89%;
+        float: none;
+    }
+    .col-lg-6.col-md-12.tren:nth-child(1) .MauTrang {
+        float: none;
     }
     .khongAnh:nth-child(2) {
         left: auto;
@@ -182,9 +185,12 @@
         width: 100%;
     }
     .khongAnh {
-        position: static;
+        position: relative;
         width: 89%;
         height: auto!important;
+    }
+    .col-lg-6.col-md-12.tren:nth-child(2) .khongAnh {
+        float: none;
     }
     .borderArow {
         width: 89%;
@@ -207,6 +213,9 @@
     .borderArowA1 {
         float: none;
         width: 89%;
+    }
+    .table-sells .borderArow:nth-child(1) {
+        float: none;
     }
 }
 
@@ -407,16 +416,13 @@
     .MauTrang:after {
         display: none;
     }
-    .btnHover {
-        left: 9%;
-    }
+    .btnHover {}
     .btnHover {
         width: 98px;
         height: 29px;
         border-radius: 34px;
         color: white;
         top: 55%;
-        left: 19%;
         font-size: 10px;
     }
     .borderArow:before {

@@ -89,7 +89,7 @@
         left: auto;
     }
     .khongAnh {
-        position: static;
+        position: relative;
         width: 89%;
     }
     .borderArow {
@@ -198,16 +198,13 @@
     .MauTrang:after {
         display: none;
     }
-    .btnHover {
-        left: 9%;
-    }
+    .btnHover {}
     .btnHover {
         width: 98px;
         height: 29px;
         border-radius: 34px;
         color: white;
         top: 55%;
-        left: 19%;
         font-size: 10px;
     }
     .borderArow:before {

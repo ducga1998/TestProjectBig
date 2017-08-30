@@ -1,22 +1,10 @@
-@media (max-width:1024px) {
+@media (max-width:1119px) {
     .khongAnh {
         height: auto;
     }
     .borderArowA1 {
         float: none;
         width: 89%;
-    }
-    .khongAnh:hover .btnHover {
-        left: 37%;
-    }
-    .btnHover {
-        left: 37%;
-    }
-    .borderArow .btnHover {
-        left: 37%;
-    }
-    .borderArow:hover .btnHover {
-        left: 37%;
     }
     .borderArow:before {
         display: none;
