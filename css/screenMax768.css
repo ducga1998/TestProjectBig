@@ -1,4 +1,7 @@
 @media (max-width:768px) {
+    .MauTrang span {
+        display: block;
+    }
     .wrapFullColor {
         display: none;
     }
@@ -35,6 +38,7 @@
     }
     .navbar-toggle {
         display: block;
+        left: 31px;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -85,7 +89,7 @@
         border-radius: 0px;
     }
     .inputSearch3 {
-        text-align: center;
+        text-align: left;
     }
     .tatPadding {
         height: auto;
@@ -304,7 +308,7 @@
         left: auto;
     }
     .khongAnh {
-        position: static;
+        position: relative;
         width: 89%;
     }
     .borderArow {
@@ -359,9 +363,6 @@
     }
     .content {
         float: none;
-    }
-    .inputSearch3 {
-        text-align: center;
     }
     .tatPadding {
         height: auto;

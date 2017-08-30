@@ -26,8 +26,6 @@
     section#list button {
         margin: 20px 0px 0px 0px;
     }
-    .borderArow .btnHover {}
-    .btnHover {}
     .LongText p {
         font-size: 12px;
     }
@@ -144,15 +142,18 @@
     .duoi .MauTrang {
         height: auto;
     }
-    .duoi .MauTrang {
+    /* .duoi .MauTrang {
         float: none;
-    }
-    .borderArowA1 {
-        float: none;
-    }
+    }*/
 }
 
-@media (max-width:980px) {
+@media (max-width:1000px) {
+    .tatPadding {
+        float: none;
+    }
+    .phanAnhTo .col-md-3 {
+        text-align: left;
+    }
     .KhoiRealvit h3 {
         margin: 0 0 20px 0px;
     }
