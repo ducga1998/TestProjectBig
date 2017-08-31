@@ -24,9 +24,6 @@
         margin: 0 auto;
         /*       bug*/
     }
-    footer .contaier {
-        padding-left: 118px;
-    }
     .hiddenResponsive {
         display: none;
     }
