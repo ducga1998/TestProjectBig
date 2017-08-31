@@ -138,6 +138,7 @@
     }
     /*responsive update have screen 768*/
     .content .row {
+        margin: 0 auto;
         height: auto;
         width: 100%;
         border: none;

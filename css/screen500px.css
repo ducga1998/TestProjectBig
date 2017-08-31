@@ -42,7 +42,8 @@
         border: none;
         border-radius: 20px;
         box-shadow: 6px 6px 12px #fff;
-        width: 251px;
+        width: auto;
+        margin: 0 auto;
     }
     /*css have  input end*/
     .div3 .btnstart {
